@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.section1{
+    width: 100%;
+    height: 85vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .l{
+        width: 50%;
+        height: 100%;
+        /* background-color: salmon; */
+        /* border: 1px solid grey; */
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        .img-box{
+            width: 90%;
+            height: 500px;
+        /* border: 3px solid grey; */
+        border-radius: 20px;
+
+
+        }
+        .swiper {
+            width: 100% !important;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: transparent;
+            border-radius: 20px !important;
+            margin-top: 10px !important;
+            border: 2px solid black;
+          }
+      
+          .swiper-slide {
+            background-size: cover;
+            background-position: center;
+            /* background-color: saddlebrown !important; */
+            width: 100% !important;
+            height: 500px !important;
+            border-radius: 20px !important;
+          }
+      
+          .mySwiper2 {
+            height: 80%;
+            width: 80%;
+            /* background-color: aliceblue; */
+            border-radius: 20px !important;
+            /* padding: 1rem !important; */
+          }
+          .mini{
+            width: 100px !important;
+            height: 85px !important;
+            /* border-radius: 20px !important; */
+            border: 2px solid black;
+
+          }
+      
+          .mySwiper {
+            height: 20%;
+            box-sizing: border-box;
+            padding: 10px 0;
+            padding: 0.5rem 1rem !important;
+
+          }
+      
+          .mySwiper .swiper-slide {
+            width: 25%;
+            height: 100%;
+            opacity: 0.4;
+          }
+      
+          .mySwiper .swiper-slide-thumb-active {
+            opacity: 1;
+          }
+      
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px !important;
+
+            object-fit: cover;
+          }
+    }
+    .r{
+        width: 50%;
+        height: 100%;
+        /* background-color: rgb(248, 25, 0); */
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        h1{
+            font-size: 3rem;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+        h2{
+            font-size: 1.5rem;
+            color: #224F34;
+
+        }
+        .btn{
+            display: flex;
+            justify-content: start;
+            padding: 0;
+            align-items: start;
+            /* background-color: sandybrown; */
+            gap: 10px;
+            .shoping{
+                padding: 0.5rem 1.5rem;
+                border: none;
+                cursor: pointer;
+                /* font-size: 1.5rem; */
+                color: #fff;
+                background-color: #224F34;
+            }
+            .buy-c{
+                background-color: orangered;
+            }
+
+        }
+        h3{
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        .rate{
+            display: flex;
+
+            i{
+                color: gold;
+            }
+        }
+        h2{
+            font-size: 1.5rem;
+            color: #224F34;
+            margin-top: 10px;
+
+        }
+        p{
+            font-size: 1rem;
+
+        }
+        .pincode{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            /* flex-direction: column; */
+        }
+        .pin{
+            border: none;
+            outline: none;
+            background-color: #fff; 
+            color: black;
+            padding: 0.5rem;
+            border-radius: 20px;
+            border: 1px solid gray;
+            align-items: start;
+        }
+        .pin::placeholder{
+            padding: 1rem;
+        }
+        .check{
+            padding: 0.5rem 1.5rem;
+            background-color: #224F34;
+            color: #fff;
+        }
+    }
+}

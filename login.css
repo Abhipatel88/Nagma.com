@@ -9,12 +9,14 @@
     width: 100%;
   }
   .nav{
-    background-color: #94684F;
-    color: white;
+    /* background-color: #94684F; */
+    background-color: transparent;
+
+    color: rgb(0, 0, 0);
     .m{
         a{
 
-            color: white;
+            color: rgb(0, 0, 0);
         }
     }
     .r{
